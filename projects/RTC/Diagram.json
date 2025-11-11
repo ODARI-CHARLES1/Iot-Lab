@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "author": "ODARI KIBISI CHARLES",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -95.4, "left": 133.8, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 160,
+      "left": 159.2,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-ds1307",
+      "id": "rtc1",
+      "top": 237.5,
+      "left": 10.4,
+      "rotate": 90,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "uno:GND.2", "lcd1:GND", "black", [ "v57.5", "h-149.7", "v9.6" ] ],
+    [ "uno:5V", "lcd1:VCC", "red", [ "v47.9", "h-149.8", "v48" ] ],
+    [ "uno:A5", "lcd1:SCL", "green", [ "v38.3", "h-254.9", "v86.4" ] ],
+    [ "uno:A4", "lcd1:SDA", "green", [ "v28.7", "h-255", "v76.8" ] ],
+    [ "rtc1:GND", "lcd1:GND", "black", [ "v-67.2" ] ],
+    [ "rtc1:5V", "lcd1:VCC", "red", [ "v0" ] ],
+    [ "rtc1:SDA", "lcd1:SDA", "green", [ "v0" ] ],
+    [ "rtc1:SCL", "lcd1:SCL", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

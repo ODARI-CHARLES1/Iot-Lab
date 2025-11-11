@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = './Firmware/firmware.hex'
+elf = 'path-to-your-firmware.elf'
