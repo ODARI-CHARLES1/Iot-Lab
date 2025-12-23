@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = './Source/WifiConnect/WiFiClient/build/esp32.esp32.esp32da/WiFiClient.ino.bin'
+elf ='./Source/WifiConnect/WiFiClient/build/esp32.esp32.esp32da/WiFiClient.ino.elf'
