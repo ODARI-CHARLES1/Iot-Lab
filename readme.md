@@ -15,6 +15,7 @@ The repository's structure is carefully organized to provide a clear path for us
 
 To make navigating this repository more interactive, you can use the following directory map to jump directly to different sections. This visual aid helps you quickly understand the project layout without needing to manually browse folders.
 
+
 ```
 iotlab/
 ├── docs/                 # Project documentation, diagrams, notes.
