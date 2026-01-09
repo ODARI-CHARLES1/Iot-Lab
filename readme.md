@@ -1,6 +1,5 @@
 # IoT Lab: An Interactive Project Hub
 
-
 ![1762862363456](image/readme/TimeTrack.png)
 
 This repository serves as a centralized hub for a collection of hands-on IoT projects and reusable code modules, built primarily with C and C++. It follows established best practices to promote modularity, reusability, and clarity, making it an excellent resource for both individual exploration and collaborative development.
