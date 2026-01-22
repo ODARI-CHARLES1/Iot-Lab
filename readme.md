@@ -10,6 +10,7 @@ This lab is designed to provide a comprehensive and structured framework for dev
 
 The repository's structure is carefully organized to provide a clear path for users. The `libs` directory houses common libraries that can be linked into any project, preventing code duplication. Each independent experiment lives within the `projects` folder, encapsulating all of its necessary source, headers, and build scripts. Project documentation, including diagrams and experimental notes, is maintained in the `docs` folder.
 
+
 # Repository Explorer
 
 To make navigating this repository more interactive, you can use the following directory map to jump directly to different sections. This visual aid helps you quickly understand the project layout without needing to manually browse folders.
