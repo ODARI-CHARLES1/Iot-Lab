@@ -4,6 +4,7 @@
 
 This repository serves as a centralized hub for a collection of hands-on IoT projects and reusable code modules, built primarily with C and C++. It follows established best practices to promote modularity, reusability, and clarity, making it an excellent resource for both individual exploration and collaborative development.
 
+
 # About this Repository
 
 This lab is designed to provide a comprehensive and structured framework for developing and managing various IoT experiments. Our core philosophy is to create reusable, well-documented code that can be easily shared and managed across projects. By separating core libraries from individual project code, we ensure a clean, scalable, and maintainable codebase.
